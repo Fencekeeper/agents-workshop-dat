@@ -8,3 +8,6 @@ autogen-ext[docker]==0.7.5
 
 # Code linting and formatting tools. Not necessary for running the code.
 # ruff
+
+# REPL
+ipykernel
