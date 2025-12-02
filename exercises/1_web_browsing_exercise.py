@@ -13,7 +13,7 @@ model_client = AzureOpenAIChatCompletionClient(
     azure_deployment="gpt-4.1-nano",
     model="gpt-4.1-nano",
     api_version="2024-10-21",
-    azure_endpoint="https://kjzopenai.openai.azure.com/",
+    azure_endpoint="https://mdir-workshop.openai.azure.com/",
     api_key=api_key,
 )
 
