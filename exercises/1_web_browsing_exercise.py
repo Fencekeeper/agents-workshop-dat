@@ -10,10 +10,10 @@ load_dotenv()
 api_key = os.getenv("API_KEY")
 
 model_client = AzureOpenAIChatCompletionClient(
-    azure_deployment="gpt-4.1-nano",
-    model="gpt-4.1-nano",
-    api_version="2024-10-21",
-    azure_endpoint="https://mdir-workshop.openai.azure.com/",
+    azure_deployment="gpt-4o-mini",
+    model="gpt-4o-mini",
+    api_version="2025-01-01-preview",
+    azure_endpoint="https://aoai-webstep-chat-sweden.openai.azure.com/",
     api_key=api_key,
 )
 
